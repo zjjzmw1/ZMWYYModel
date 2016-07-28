@@ -13,6 +13,9 @@
 		FF5C1F491D40A4DD00094815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C1F471D40A4DD00094815 /* Main.storyboard */; };
 		FF5C1F4B1D40A4DD00094815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5C1F4A1D40A4DD00094815 /* Assets.xcassets */; };
 		FF5C1F4E1D40A4DD00094815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C1F4C1D40A4DD00094815 /* LaunchScreen.storyboard */; };
+		FF5C1F5B1D40A56100094815 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C1F571D40A56100094815 /* NSObject+YYModel.m */; };
+		FF5C1F5C1D40A56100094815 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C1F591D40A56100094815 /* YYClassInfo.m */; };
+		FF5C1F5F1D40A58E00094815 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C1F5E1D40A58E00094815 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		FF5C1F4A1D40A4DD00094815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF5C1F4D1D40A4DD00094815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5C1F4F1D40A4DD00094815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5C1F561D40A56100094815 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		FF5C1F571D40A56100094815 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		FF5C1F581D40A56100094815 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		FF5C1F591D40A56100094815 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		FF5C1F5A1D40A56100094815 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		FF5C1F5D1D40A58E00094815 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		FF5C1F5E1D40A58E00094815 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,9 @@
 				FF5C1F421D40A4DD00094815 /* AppDelegate.m */,
 				FF5C1F441D40A4DD00094815 /* ViewController.h */,
 				FF5C1F451D40A4DD00094815 /* ViewController.m */,
+				FF5C1F5D1D40A58E00094815 /* Student.h */,
+				FF5C1F5E1D40A58E00094815 /* Student.m */,
+				FF5C1F551D40A56100094815 /* YYModel */,
 				FF5C1F471D40A4DD00094815 /* Main.storyboard */,
 				FF5C1F4A1D40A4DD00094815 /* Assets.xcassets */,
 				FF5C1F4C1D40A4DD00094815 /* LaunchScreen.storyboard */,
@@ -77,6 +90,18 @@
 				FF5C1F3F1D40A4DD00094815 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF5C1F551D40A56100094815 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C1F561D40A56100094815 /* NSObject+YYModel.h */,
+				FF5C1F571D40A56100094815 /* NSObject+YYModel.m */,
+				FF5C1F581D40A56100094815 /* YYClassInfo.h */,
+				FF5C1F591D40A56100094815 /* YYClassInfo.m */,
+				FF5C1F5A1D40A56100094815 /* YYModel.h */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +177,9 @@
 				FF5C1F461D40A4DD00094815 /* ViewController.m in Sources */,
 				FF5C1F431D40A4DD00094815 /* AppDelegate.m in Sources */,
 				FF5C1F401D40A4DD00094815 /* main.m in Sources */,
+				FF5C1F5C1D40A56100094815 /* YYClassInfo.m in Sources */,
+				FF5C1F5B1D40A56100094815 /* NSObject+YYModel.m in Sources */,
+				FF5C1F5F1D40A58E00094815 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
